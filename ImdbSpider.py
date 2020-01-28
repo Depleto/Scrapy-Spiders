@@ -1,7 +1,8 @@
 import scrapy
 import json
 '''
-Identifies which of IMDb's current most popular movies have the provided actor/actors
+Identifies which of IMDb's current most popular movies have the provided actor/actors.
+Outputs log.txt file
 '''
 
 class ImdbSpider(scrapy.Spider):
